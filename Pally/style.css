@@ -73,7 +73,7 @@ div.left-part article {
 div.left-part article p {
     margin-top: 12px;
     font-size: 15px;
-    text-align:justify;
+    text-align: justify;
 }
 
 div.left-part #join {
@@ -180,7 +180,7 @@ div.left-part #join:hover {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         background: transparent;
     }
-    
+
     header {
         display: flex;
         width: 100%;
@@ -189,24 +189,24 @@ div.left-part #join:hover {
         align-items: center;
         background: #EBF6F0;
     }
-    
+
     #logo {
         width: 6em;
         height: auto;
         margin: 0 auto 0 1.5em;
     }
-    
+
     .nav-items {
         display: inline-flex;
         list-style: none;
-        margin-right:0.1em;
+        margin-right: 0.1em;
     }
-    
+
     .nav-items li {
         width: 90px;
         margin-left: 0.5em;
     }
-    
+
     .nav-items li a {
         padding: 6px;
         text-decoration: none;
@@ -217,7 +217,7 @@ div.left-part #join:hover {
         color: white;
         background: #4ca2ac;
     }
-    
+
     header span.line {
         display: block;
         margin: 5px 30px 0 0;
@@ -225,38 +225,39 @@ div.left-part #join:hover {
         height: 2px;
         background: #787878;
     }
-    
+
     #main-part {
         position: relative;
         display: flex;
         flex-direction: column;
         width: 100%;
-        height: 95vh;
+        height: 100vh;
     }
-    
+
     div.left-part {
         position: relative;
-        flex: 30%;
-        padding: 30px 20px 10px 20px;
+        flex: 25%;
+        padding: 15px 20px 0 20px;
         background-image: linear-gradient(to right, #EBF6F0, #FFFFFF);
     }
-    
+
     div.left-part article {
         width: 100%;
         line-height: 1.7em;
+        font-size: 14px;
     }
-    
+
     div.left-part article p {
-        margin-top: 12px;
-        font-size: 15px;
-        text-align:justify;
+        margin-top: 8px;
+        text-align: justify;
+        font-size: 14px;
     }
-    
+
     div.left-part #join {
         position: relative;
         width: 110px;
         height: 35px;
-        margin-top: 8px;
+        margin: 4px 0 10px 0;
         color: white;
         font-size: 14px;
         font-weight: 600;
@@ -264,20 +265,20 @@ div.left-part #join:hover {
         border-radius: 12px;
         background-color: #1D7E8E;
     }
-    
+
     div.right-part {
         position: relative;
-        flex: 70%;
+        flex: 75%;
         overflow: hidden;
         background: #FFFFFF;
     }
-    
+
     #logo,
     header div.lines,
     main div.left-part #join {
         cursor: pointer;
     }
-    
+
     #main-img {
         position: relative;
         width: 360px;
@@ -286,28 +287,28 @@ div.left-part #join:hover {
         border-radius: 50%;
         object-fit: cover;
     }
-    
+
     .nav-items li a:hover {
         background-color: #2b8691;
     }
-    
+
     div.left-part #join:hover {
         background-color: #146774;
     }
-    
+
     /* RING SECTION */
     .ring {
         position: relative;
         width: 400px;
         height: 400px;
-        top: 30px;
+        top: 10px;
         bottom: 0;
-        left: 5px;
+        left: 0;
         right: 0;
         border: 2px solid #3a3b3b;
         border-radius: 50%;
     }
-    
+
     .circle {
         position: absolute;
         width: 20px;
@@ -324,23 +325,23 @@ div.left-part #join:hover {
         -webkit-animation: circle 15s linear infinite;
         animation: circle 15s linear infinite;
     }
-    
+
     @-webkit-keyframes circle {
-    
+
         0% {
             transform: rotate(0deg)translate(-200px)rotate(0deg);
         }
-    
+
         100% {
             transform: rotate(360deg)translate(-200px)rotate(-360deg);
         }
     }
-    
+
     @keyframes circle {
         0% {
             transform: rotate(0deg)translate(-200px)rotate(0deg);
         }
-    
+
         100% {
             transform: rotate(360deg)translate(-200px)rotate(-360deg);
         }
